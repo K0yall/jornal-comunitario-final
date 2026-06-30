@@ -1,0 +1,197 @@
+/* Configurações Globais e Paleta de Cores */
+:root {
+    --bg-color: #fcfbf7; /* Tom de papel jornal levemente envelhecido */
+    --text-main: #111111;
+    --text-muted: #555555;
+    --accent-color: #8b0000; /* Vermelho editorial */
+    --border-color: #222222;
+    --card-bg: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho do Jornal */
+.journal-header {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+.journal-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 10px 0;
+    color: var(--text-main);
+}
+
+.journal-tagline {
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin: 8px 0;
+}
+
+.header-divider {
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 5px 0;
+}
+
+.header-divider.double {
+    height: 4px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    background: transparent;
+    margin-top: 5px;
+}
+
+/* Título de Seções */
+.section-title {
+    border-bottom: 2px solid var(--border-color);
+    margin: 40px 0 20px 0;
+    padding-bottom: 5px;
+}
+
+.section-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+/* Destaque Principal */
+.main-news-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+@media (min-width: 768px) {
+    .main-news-card {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bairro-tag {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.main-snippet {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.meta-info {
+    font-size: 0.85rem;
+    color: #777;
+    font-weight: 500;
+}
+
+/* Grade de Notícias Laterais/Secundárias */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.news-card {
+    background: var(--card-bg);
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.news-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+/* Estados de Carregamento e Erro */
+.loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px;
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+/* Rodapé */
+.journal-footer {
+    margin-top: 60px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
