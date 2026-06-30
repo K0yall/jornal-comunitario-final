@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "Nova horta comunitária é inaugurada no Bairro Santana",
+    "conteudo": "Moradores se uniram para transformar um terreno baldio em uma horta orgânica que beneficiará 50 famílias.",
+    "autor": "Ana Silva",
+    "bairro": "Santana",
+    "data_publicacao": "2026-06-15"
+  },
+  {
+    "id": 2,
+    "titulo": "Reforma do Posto de Saúde Central começa nesta segunda",
+    "conteudo": "As obras de ampliação do postinho devem durar 60 dias. Atendimentos de emergência serão realocados.",
+    "autor": "Carlos Souza",
+    "bairro": "Centro",
+    "data_publicacao": "2026-06-18"
+  },
+  {
+    "id": 3,
+    "titulo": "Time do Bairro Fundo Canoas vence o campeonato municipal",
+    "conteudo": "Com um gol nos acréscimos, o Atlético Comunitário levou a taça do torneio amador deste ano.",
+    "autor": "Marcos Oliveira",
+    "bairro": "Fundo Canoas",
+    "data_publicacao": "2026-06-20"
+  },
+  {
+    "id": 4,
+    "titulo": "Feira cultural de inverno atrai centenas de moradores",
+    "conteudo": "O evento contou com apresentações de artistas locais, venda de artesanato e comidas típicas da região.",
+    "autor": "Julia Lima",
+    "bairro": "Centro",
+    "data_publicacao": "2026-06-21"
+  },
+  {
+    "id": 5,
+    "titulo": "Associação de Moradores do Canta Galo elege nova diretoria",
+    "conteudo": "A chapa liderada por Roberto Mendes venceu com 65% dos votos e promete focar na segurança e iluminação.",
+    "autor": "Ana Silva",
+    "bairro": "Canta Galo",
+    "data_publicacao": "2026-06-22"
+  },
+  {
+    "id": 6,
+    "titulo": "Campanha de vacinação animal atinge meta no Progresso",
+    "conteudo": "Mais de 400 cães e gatos foram vacinados contra a raiva no último sábado no mutirão do bairro.",
+    "autor": "Carlos Souza",
+    "bairro": "Progresso",
+    "data_publicacao": "2026-06-23"
+  },
+  {
+    "id": 7,
+    "titulo": "Inscrições abertas para curso gratuito de informática",
+    "conteudo": "O Centro de Inovação Social está oferecendo 30 vagas para jovens da comunidade aprenderem programação básica.",
+    "autor": "Julia Lima",
+    "bairro": "Santana",
+    "data_publicacao": "2026-06-24"
+  },
+  {
+    "id": 8,
+    "titulo": "Moradores reclamam de falta de iluminação na Rua XV",
+    "conteudo": "Pelo menos quatro postes estão com lâmpadas queimadas há duas semanas, gerando sensação de insegurança.",
+    "autor": "Marcos Oliveira",
+    "bairro": "Centro",
+    "data_publicacao": "2026-06-25"
+  },
+  {
+    "id": 9,
+    "titulo": "Coleta seletiva ganha novos horários a partir de julho",
+    "conteudo": "A prefeitura divulgou o novo cronograma do caminhão da reciclagem. Fique atento aos dias do seu bairro.",
+    "autor": "Ana Silva",
+    "bairro": "Progresso",
+    "data_publicacao": "2026-06-26"
+  },
+  {
+    "id": 10,
+    "titulo": "Clube de Mães organiza bazar beneficente para o agasalho",
+    "conteudo": "Todo o valor arrecadado com a venda de roupas usadas será revertido na compra de cobertores para famílias carentes.",
+    "autor": "Julia Lima",
+    "bairro": "Canta Galo",
+    "data_publicacao": "2026-06-28"
+  }
+]
